@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Raleway:wght@300;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos principales */
+
+:root {
+    --theme-color: #090E16;
+    --elements-icons: #F1F2F6;
+    --text-primary: #571089;
+    --text-secundary: #BDD5EA;
+    --font-family-primary: 'Raleway', sans-serif;
+    --font-family-secundary: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: var(--theme-color);
+    color: var(--text-secundary);
+    font-family: var(--font-family-primary);
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-secundary);
+}
+
+.header {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+
+.iconos {
+    background-color: var(--elements-icons);
+    width: 30px;
+    border-radius:10px;
+    padding: 5px;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+
+.img-logo {
+    width: 300px;
+    border-radius: 100%;
+    transform: rotate(-5deg);
+    margin-left: 250px;    
+}
+
+.valores {
+    margin-top: 80px;
+}
+
+.h3-valores {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8338EC;
+    border: #571089 solid 1px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.p-valores {
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 0px 4px 4px grey;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: 300px 300px;
+    column-gap: 50px;
+    row-gap: 30px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.card-1 {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: #7B4AE2 solid 1px;
+    text-align: center;
+}
+
+.card-2 {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #7B4AE2;
+    opacity: 20%;
+    border: #7B4AE2 solid 1px;
+    text-align: center;
+}
+
