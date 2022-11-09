@@ -97,7 +97,11 @@ a {
     border: #7B4AE2 solid 1px;
     text-align: center;
 }
-
+.card-1>img{
+    padding-top: 20px;
+    width: 150px;
+    
+}
 .card-2 {
     align-items: center;
     justify-content: center;
